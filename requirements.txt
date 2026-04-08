@@ -1,0 +1,17 @@
+numpy
+pandas
+matplotlib
+scikit-learn
+pillow
+tqdm
+pyyaml
+transformers
+timm
+opencv-python
+albumentations
+seaborn
+evaluate
+sentencepiece
+accelerate
+jupyter
+ipykernel
