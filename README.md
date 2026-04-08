@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Trustworthy Assistive Visual Question Answering for Blind and Low-Vision Users
 
 This project focuses on building a trustworthy assistive Visual Question Answering (VQA) system for blind and low-vision users. The goal is to develop a multimodal system that takes an image and a natural language question as input, predicts an answer, and later extends to provide confidence-aware or safe-response behavior when the image is unclear or the model is uncertain.
@@ -145,7 +144,3 @@ The planned system will include:
 
 GitHub: https://github.com/ajit1203  
 LinkedIn: https://www.linkedin.com/in/ajitreddylingannagaru/
-=======
-# GuideLens
-Trustworthy Assistive Visual Question Answering for Blind and Low-Vision Users
->>>>>>> 4e1b7610a617d03dd7c2d0068b8bde249fc246ae
