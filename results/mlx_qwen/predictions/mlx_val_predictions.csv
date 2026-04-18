@@ -1,0 +1,101 @@
+image,question,ground_truth,prediction,ground_truth_normalized,prediction_normalized,exact_match
+data/raw/vizwiz/val/VizWiz_val_00000000.jpg,ok. there is another picture i hope it is a better one.,unanswerable,unanswerable.,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000003.jpg,which one is the blue one?,right,unanswerable.,right,unanswerable,0
+data/raw/vizwiz/val/VizWiz_val_00000004.jpg,what does the arrow say?,unanswerable,unanswerable.,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000005.jpg,what the screen says? thank you.,unanswerable,unanswerable,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000006.jpg,what is seen on the laptop screen? what is seen on the laptop screen?,unanswerable,unanswerable,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000007.jpg,okay i think i got it this time. can you read the model and serial number for me? thanks.,unanswerable,unanswerable.,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000008.jpg,is this shampoo or conditioner?,unanswerable,unanswerable,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000009.jpg,can you describe for me what's going on outside the window? just curious.,nothing,!!!!!!!!!!!!!!!!!!!!!!!!,nothing,,0
+data/raw/vizwiz/val/VizWiz_val_00000010.jpg,what about the signery.,unanswerable,unanswerable.,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000011.jpg,what color is this,white,white,white,white,1
+data/raw/vizwiz/val/VizWiz_val_00000012.jpg,this piece of mail for and where is it from?,unanswerable,unanswerable,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000013.jpg,who is this mail for?,unanswerable,unanswerable.,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000014.jpg,what does my eye look like?,unanswerable,unanswerable.,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000015.jpg,"which one of these items is the children's dictionary? is it the one on the right, or the one on the left?",left,!!!!!!!!!!!!!!!!!!!!!!!!,left,,0
+data/raw/vizwiz/val/VizWiz_val_00000016.jpg,what is this?,unanswerable,unanswerable,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000017.jpg,can you see if this is 32 bit or 64 bit? thanks.,unanswerable,unanswerable,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000018.jpg,what is the computer doing?,unanswerable,unanswerable,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000019.jpg,what is the tag number?,unanswerable,PP41L,unanswerable,pp41l,0
+data/raw/vizwiz/val/VizWiz_val_00000020.jpg,what does this sign say?,unanswerable,unanswerable.,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000024.jpg,"sometimes it does this too. it's great when it works, but when it doesn't, it's annoying.",unanswerable,unanswerable.,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000026.jpg,can you tell me what these are please?,unanswerable,unanswerable,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000027.jpg,what type of pills are these?,unanswerable,unanswerable.,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000028.jpg,is this a woman?>,yes,unanswerable,yes,unanswerable,0
+data/raw/vizwiz/val/VizWiz_val_00000029.jpg,what does it say?,unanswerable,unanswerable,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000030.jpg,what does that money say?,unanswerable,unanswerable.,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000031.jpg,can anyone tell me what's actually on the screen of the laptop?,unanswerable,unanswerable,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000032.jpg,can you tell me what this is a picture of?,unanswerable,unanswerable,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000033.jpg,can you read the bottle on the screen?,unanswerable,unanswerable,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000034.jpg,how big do you think my tv is? thank you.,unanswerable,unanswerable,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000035.jpg,what does this note say?,unanswerable,unanswerable,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000037.jpg,"hi, i just wanted to confirm that these are indeed pork chops. any other information that is clear would be appreciated. thank you.",yes,unanswerable.,yes,unanswerable,0
+data/raw/vizwiz/val/VizWiz_val_00000038.jpg,please tell me what this is.,unanswerable,unanswerable,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000039.jpg,what denomination is this?,unanswerable,unanswerable.,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000040.jpg,please tell me what is in this food packaging. i know it's a tesco's indian meal of some kind.,unanswerable,unanswerable.,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000041.jpg,what is this receipt about and is there a phone number?,unanswerable,unanswerable.,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000042.jpg,what does this fortune cookie say?,unanswerable,unanswerable,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000043.jpg,tell me what's in this photo.,unanswerable,unanswerable,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000044.jpg,able on my vacuum i need the serial number and model number.,unanswerable,unanswerable.,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000045.jpg,what is the expiration date on this bus pass?,unanswerable,unanswerable,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000046.jpg,"how big is my tv and what is on the screen, and what is the model number, and what brand is it?",unanswerable,unanswerable.,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000049.jpg,what kind of pop is this?,unanswerable,unanswerable,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000050.jpg,screen showing.,unanswerable,unanswerable.,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000051.jpg,what letters am i supposed to enter in to claim the prize?,unanswerable,unanswerable.,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000052.jpg,can you tell me if there is a model on here please? thank you.,unanswerable,unanswerable,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000053.jpg,"hello there, are you able to see what's on this lcd screen and if it's expecting any input from the user, as in, does it have a next button, back button?",yes,unanswerable.,yes,unanswerable,0
+data/raw/vizwiz/val/VizWiz_val_00000055.jpg,where do you think i could get a power cord?,unanswerable,unanswerable.,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000056.jpg,specials on this menu.,unanswerable,unanswerable.,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000058.jpg,i cannot move the camera slightly closer to the monitor.,unanswerable,unanswerable.,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000059.jpg,what does the label say on this electronic component?,unanswerable,unanswerable.,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000061.jpg,what is this?,computer screen,unanswerable,computer screen,unanswerable,0
+data/raw/vizwiz/val/VizWiz_val_00000062.jpg,what website is this?,unanswerable,unanswerable,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000063.jpg,alright see if you can see the orca serial number now.,unanswerable,unanswerable.,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000065.jpg,could you please tell me what's on my screen?,unanswerable,unanswerable,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000066.jpg,product key for this version of office.,unanswerable,unanswerable.,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000067.jpg,what's the website?,unanswerable,!!!!!!!!!!!!!!!!!!!!!!!!,unanswerable,,0
+data/raw/vizwiz/val/VizWiz_val_00000068.jpg,what does the screen say?,unanswerable,unanswerable,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000070.jpg,"about this one, thank you.",unanswerable,unanswerable.,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000071.jpg,what is this item,unanswerable,unanswerable,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000072.jpg,what does the sky look like in this photograph,clear,blue,clear,blue,0
+data/raw/vizwiz/val/VizWiz_val_00000073.jpg,can you tell me what this screen says?,unanswerable,unanswerable,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000074.jpg,product key for this version of office?,unanswerable,unanswerable.,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000075.jpg,is there anything on the screen?,yes,yes,yes,yes,1
+data/raw/vizwiz/val/VizWiz_val_00000076.jpg,business card.,unanswerable,unanswerable.,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000077.jpg,what's on my computer screen?,unanswerable,unanswerable,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000078.jpg,"can see what's on the screen, like is it a log in screen or anything like that? thank you.",unanswerable,unanswerable,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000080.jpg,what is this show?,unanswerable,unanswerable,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000081.jpg,"please tell me the title of this book, thank you for your time.",unanswerable,!!!!!!!!!!!!!!!!!!!!!!!!,unanswerable,,0
+data/raw/vizwiz/val/VizWiz_val_00000082.jpg,"is my computer performing a disc check? for example, does it say on the screen, \checking files system\, or \stage one of four\ or some such? thank you.",unanswerable,unanswerable.,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000083.jpg,which one of the three images is the google logo?,unanswerable,unanswerable,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000084.jpg,is there a picture on this tv screen?,yes,!!!!!!!!!!!!!!!!!!!!!!!!,yes,,0
+data/raw/vizwiz/val/VizWiz_val_00000085.jpg,please explain what is on this piece of paper,unanswerable,!!!!!!!!!!!!!!!!!!!!!!!!,unanswerable,,0
+data/raw/vizwiz/val/VizWiz_val_00000086.jpg,what bill is this?,unanswerable,unanswerable,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000087.jpg,what are the cooking instructions for this?,unanswerable,unanswerable.,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000088.jpg,is there a button i need to press to make it resume? or do i just wait?,unanswerable,unanswerable,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000089.jpg,what does the screen say?,unanswerable,That's all the information we need right now. Your computer will restart.,unanswerable,that s all the information we need right now your computer will restart,0
+data/raw/vizwiz/val/VizWiz_val_00000090.jpg,is the dialogue more visible in that picture?,no,unanswerable.,no,unanswerable,0
+data/raw/vizwiz/val/VizWiz_val_00000092.jpg,"the previous screen presented country, timezone, currency and keyboard and i went ahead and after i got a response from the web worker i selected alt-n followed by next so i'm not sure if i",unanswerable,unanswerable.,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000093.jpg,"is this picture clear, and where are we now?",no,unanswerable.,no,unanswerable,0
+data/raw/vizwiz/val/VizWiz_val_00000094.jpg,can you please tell me what the computer screen says within in the vmware workstation window? particular to see if there's any progress on the windows installation.,unanswerable,unanswerable,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000095.jpg,can you see what's on the screen?,no,unanswerable,no,unanswerable,0
+data/raw/vizwiz/val/VizWiz_val_00000097.jpg,can you tell me if there's any local seattle beers on this menu?,unanswerable,!!!!!!!!!!!!!!!!!!!!!!!!,unanswerable,,0
+data/raw/vizwiz/val/VizWiz_val_00000098.jpg,what is the model number of the computer?,unanswerable,!!!!!!!!!!!!!!!!!!!!!!!!,unanswerable,,0
+data/raw/vizwiz/val/VizWiz_val_00000099.jpg,"alright. if you could tell what the screen says, that would be helpful, thank you",unanswerable,Unanswerable.,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000100.jpg,can you see the dosage information? thank you.,no,unanswerable.,no,unanswerable,0
+data/raw/vizwiz/val/VizWiz_val_00000101.jpg,is their text on this computer screen?,yes,yes,yes,yes,1
+data/raw/vizwiz/val/VizWiz_val_00000102.jpg,"this is a picture of a home i'm planning to buy, does it look like its in a safe neighborhood?",no,unanswerable.,no,unanswerable,0
+data/raw/vizwiz/val/VizWiz_val_00000103.jpg,what bottle is this please? thank you.,unanswerable,unanswerable.,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000104.jpg,can you please tell me the progress of the windows installation? thank you very much.,unanswerable,unanswerable,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000105.jpg,has the text on the screen changed?,unanswerable,unanswerable.,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000106.jpg,"hi, can you give me the percentage of the scan disk? thanks.",unanswerable,unanswerable.,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000107.jpg,please tell me the title of this book. thank you for your time.,unanswerable,!!!!!!!!!!!!!!!!!!!!!!!!,unanswerable,,0
+data/raw/vizwiz/val/VizWiz_val_00000109.jpg,what is the expiration date on this bus pass?,unanswerable,!!!!!!!!!!!!!!!!!!!!!!!!,unanswerable,,0
+data/raw/vizwiz/val/VizWiz_val_00000110.jpg,what kind of medication is this?,unanswerable,unanswerable,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000111.jpg,what is this,unanswerable,unanswerable,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000114.jpg,is it impossible for you to read the captcha image in this picture? thanks.,unanswerable,unanswerable.,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000116.jpg,what does this arrow say?,unanswerable,unanswerable.,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000117.jpg,please tell me the name of this book.,unanswerable,!!!!!!!!!!!!!!!!!!!!!!!!,unanswerable,,0
+data/raw/vizwiz/val/VizWiz_val_00000118.jpg,what does this say?,unanswerable,unanswerable,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000119.jpg,what is written on the screen?,unanswerable,unanswerable,unanswerable,unanswerable,1
+data/raw/vizwiz/val/VizWiz_val_00000120.jpg,what is this?,unanswerable,unanswerable,unanswerable,unanswerable,1

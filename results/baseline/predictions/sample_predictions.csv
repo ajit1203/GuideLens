@@ -1,0 +1,21 @@
+image_name,question,ground_truth_answer,predicted_answer,predicted_answerability
+VizWiz_val_00002304.jpg,what kind of soda is this?,dr pepper,unanswerable,0
+VizWiz_val_00003279.jpg,does it say that? it says record a question. i think.,unanswerable,unanswerable,0
+VizWiz_val_00003484.jpg,what color is this?,grey,white,1
+VizWiz_val_00003233.jpg,"can you tell me what number it is, thank you?",unanswerable,unanswerable,0
+VizWiz_val_00003389.jpg,what is this product?,cereal,unanswerable,0
+VizWiz_val_00003777.jpg,what is in this box?,unanswerable,unanswerable,0
+VizWiz_val_00003631.jpg,"what product is this please, and thank you?",unanswerable,unanswerable,0
+VizWiz_val_00002870.jpg,what is this label?,unanswerable,unanswerable,0
+VizWiz_val_00000539.jpg,what does my computer screen say?,unanswerable,unanswerable,0
+VizWiz_val_00003243.jpg,what is my color of what is color of my shirt?,white,white,1
+VizWiz_val_00001345.jpg,"what box am i looking at, as in what does the box contain?",granola bars,unanswerable,0
+VizWiz_val_00000220.jpg,looking for the time that this screen is trying to tell me. i'm trying to do a filevault decryption.,unanswerable,unanswerable,0
+VizWiz_val_00001037.jpg,what is the number of this building that i've just photographed?,unanswerable,unanswerable,0
+VizWiz_val_00003706.jpg,could you give me the name and possible the brand of lavender bath soap this is,unanswerable,unanswerable,0
+VizWiz_val_00000111.jpg,what is this,unanswerable,unanswerable,0
+VizWiz_val_00003500.jpg,what is this dollar bill?,unanswerable,unanswerable,0
+VizWiz_val_00003378.jpg,what are the directions on this bottle?,unanswerable,unanswerable,0
+VizWiz_val_00003440.jpg,what is this?,unanswerable,unanswerable,1
+VizWiz_val_00000884.jpg,what is this please?,unanswerable,unanswerable,0
+VizWiz_val_00001111.jpg,could you tell me what is on this laptop monitor? what's it showing?,unanswerable,unanswerable,0

@@ -1,0 +1,28 @@
+seed: 42
+
+data:
+  train_csv: data/processed/train_subset.csv
+  val_csv: data/processed/val_subset.csv
+  image_size: 224
+  max_question_length: 24
+
+model:
+  text_model_name: distilbert-base-uncased
+  hidden_dim: 256
+  dropout: 0.2
+  freeze_vision: true
+  freeze_text: true
+
+train:
+  batch_size: 8
+  epochs: 8
+  lr: 0.0001
+  answerability_loss_weight: 0.5
+
+paths:
+  checkpoint_path: checkpoints/best_model.pt
+  metrics_path: results/metrics/metrics.json
+  loss_plot_path: results/plots/loss_curve.png
+  predictions_path: results/predictions/sample_predictions.csv
+  answer_to_idx: data/processed/answer_to_idx.json
+  idx_to_answer: data/processed/idx_to_answer.json
