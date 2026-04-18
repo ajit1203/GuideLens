@@ -1,36 +1,64 @@
 # Trustworthy Assistive Visual Question Answering for Blind and Low-Vision Users
 
-This project focuses on building a trustworthy assistive Visual Question Answering (VQA) system for blind and low-vision users. The goal is to develop a multimodal system that takes an image and a natural language question as input, predicts an answer, and later extends to provide confidence-aware or safe-response behavior when the image is unclear or the model is uncertain.
+This project focuses on building a trustworthy assistive Visual Question Answering (VQA) system for blind and low-vision users. The system takes an image and a natural language question as input and predicts an answer, while also emphasizing cautious behavior when the image is unclear or the question cannot be answered reliably.
+
+The project currently includes:
+- a working **baseline multimodal classifier** using **ResNet-18 + DistilBERT**
+- a **Streamlit interface** for interactive inference
+- an exploratory **Qwen2.5-VL + MLX** evaluation path on Apple Silicon
+- training logs, plots, and sample predictions for early evaluation
+
+---
 
 ## Project Overview
 
-Blind and low-vision users often capture images that are blurry, poorly framed, too dark, or otherwise difficult to interpret. Standard VQA systems may still generate answers even when they are uncertain, which can reduce trust and create risk in assistive settings. This project aims to address that problem by combining visual and textual understanding with a trustworthiness-focused prediction pipeline.
+Blind and low-vision users often capture images that are blurry, poorly framed, too dark, or otherwise difficult to interpret. Standard VQA systems may still generate answers even when they are uncertain, which can reduce trust and create risk in assistive settings.
 
-The project currently uses the VizWiz VQA dataset for initial exploration and baseline development.
+This project addresses that problem by combining:
+- visual understanding
+- question understanding
+- answer prediction
+- answerability-aware behavior
+
+The current dataset for development and evaluation is the **VizWiz VQA** dataset.
+
+---
 
 ## Repository Structure
 
 ```text
 trustworthy-assistive-vqa/
-├── checkpoints/              # Saved model weights
-├── configs/                  # Configuration files
+├── checkpoints/                  # Saved model weights and adapter files
+├── configs/                      # Configuration files
 ├── data/
-│   ├── processed/            # Processed metadata files
+│   ├── processed/                # Processed CSV/JSONL files
 │   └── raw/
-│       └── vizwiz/           # Local VizWiz dataset storage
-├── docs/                     # Architecture diagrams and UI sketches
-├── notebooks/                # Jupyter notebooks for setup and exploration
-├── outputs/
-│   ├── logs/                 # Training and evaluation logs
-│   └── predictions/          # Model prediction outputs
-├── results/                  # Exploratory results and visual outputs
-├── scripts/                  # Utility and execution scripts
-├── src/                      # Source code for data, models, and training
-├── ui/                       # Placeholder for future interface
-├── environment.yml           # Conda environment file
-├── requirements.txt          # Python dependency list
-├── README.md                 # Project documentation
-└── setup.py                  # Package setup file
+│       └── vizwiz/               # Local VizWiz dataset storage
+├── docs/                         # UI screenshots and project visuals
+├── figures/                      # Report figures such as architecture and plots
+├── notebooks/
+│   ├── setup.ipynb               # Dataset setup and exploratory analysis
+│   └── qwen_finetune_eval.ipynb  # Qwen/MLX evaluation notebook
+├── results/
+│   ├── baseline/
+│   │   ├── metrics/              # Baseline metrics
+│   │   ├── plots/                # Baseline plots
+│   │   └── predictions/          # Baseline sample predictions
+│   └── mlx_qwen/
+│       ├── logs/                 # MLX/Qwen training logs
+│       ├── metrics/              # MLX/Qwen evaluation metrics
+│       ├── plots/                # MLX/Qwen loss curves
+│       └── predictions/          # MLX/Qwen sample predictions
+├── scripts/                      # Utility, training, and evaluation scripts
+├── src/
+│   ├── data/                     # Dataset code
+│   ├── models/                   # Baseline and Qwen model wrappers
+│   └── training/                 # Training loop code
+├── ui/                           # Streamlit application
+├── environment.yml               # Conda environment file
+├── requirements.txt              # Python dependency list
+├── README.md                     # Project documentation
+└── setup.py                      # Package setup file
 ```
 ## Dataset Information
 
@@ -116,16 +144,124 @@ This notebook verifies:
 - summary statistics
 - sample image visualization
 
+Notebook 2: Qwen / MLX evaluation
+```bash
+notebooks/qwen_finetune_eval.ipynb
+```
+This notebook shows:
+
+- processed Qwen-format data inspection
+- MLX training log summary
+- Qwen training loss visualization
+- evaluation metrics
+- sample predictions
+- qualitative examples
+
+## How to Run the Baseline Pipeline
+1. Prepare processed data
+```bash
+python scripts/prepare_data.py
+```
+2. Train the baseline model
+```bash
+python scripts/train_baseline.py
+```
+
+This generates:
+
+- baseline metrics
+- loss curves
+- sample predictions
+- saved checkpoints
+  
+3. Review baseline outputs
+Typical outputs are stored under:
+```text
+results/baseline/
+```
+
+## How to Run the Qwen / MLX Path
+
+1. Prepare MLX/Qwen JSONL files
+```bash
+python scripts/prepare_mlx_qwen_data.py
+```
+2. Run MLX/Qwen evaluation
+```bash
+python scripts/eval_mlx_qwen.py
+```
+Typical outputs are stored under:
+```text
+results/mlx_qwen/
+```
+This includes:
+
+- training logs
+- evaluation metrics
+- sample predictions
+- training loss plots
+
+## How to Launch the Interface
+Run the Streamlit app:
+```bash
+python -m streamlit run ui/app.py
+```
+The interface currently supports:
+
+- image upload
+- question input
+- answer display
+- cautious response behavior for uncertain cases
+
+## Current Results
+### Baseline model
+
+The baseline system uses:
+
+- ResNet-18 for image encoding
+- DistilBERT for question encoding
+- concatenation-based fusion
+- dual heads for:
+  - answer prediction
+  - answerability prediction
+
+Current baseline results from the main run:
+
+- training subset: 1000
+- validation subset: 200
+- epochs: 8
+- final validation answer accuracy: 0.6617
+- final validation answerability accuracy: 0.7883
+
+### Qwen / MLX path
+
+The project also includes an exploratory generative model direction using Qwen2.5-VL + MLX on Apple Silicon.
+
+Current status:
+
+- MLX training pipeline runs successfully
+- training loss curves are available
+- preliminary base-Qwen evaluation has been completed
+- fine-tuned adapter remains under refinement
+
 ## Current Project Status
 
 At the current stage, the repository includes:
 
-- initial project structure
-- local dataset setup
-- environment configuration
-- an exploratory notebook for dataset verification and understanding
+- dataset setup
+- preprocessing pipeline
+- baseline training pipeline
+- evaluation outputs
+- Streamlit interface
+- exploratory Qwen / MLX workflow
+- report figures and visual evidence
 
-The next step is to build the preprocessing pipeline and generate smaller processed subsets for baseline training.
+Next steps include:
+
+- refining answerability calibration
+- improving failure analysis
+- polishing the interface
+- improving the generative Qwen-based path
 
 ## Planned System Components
 
