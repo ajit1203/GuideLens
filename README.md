@@ -110,8 +110,8 @@ Direct download files:
 ### 1. Clone the repository
 
 ```bash
-git clone <your-github-repo-link>
-cd trustworthy-assistive-vqa
+git clone https://github.com/ajit1203/GuideLens.git
+cd GuideLens
 ```
 
 ### 2. Create and activate the conda environment
